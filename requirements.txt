@@ -1,0 +1,4 @@
+faster-whisper>=0.9.0
+torch==2.6.0+cu126
+torchaudio==2.6.0+cu126
+mcp[cli]>=1.2.0
