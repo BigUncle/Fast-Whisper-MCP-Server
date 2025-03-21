@@ -1,4 +1,22 @@
-faster-whisper>=0.9.0
+# uv pip install -r ./requirements.txt --index-url https://download.pytorch.org/whl/cu126
+faster-whisper
 torch==2.6.0+cu126
 torchaudio==2.6.0+cu126
-mcp[cli]>=1.2.0
+
+# uv pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cu126
+# pip install faster-whisper>=0.9.0
+# pip install mcp[cli]>=1.2.0
+
+# PyTorch安装指南:
+#    请根据您的CUDA版本安装适当版本的PyTorch:
+#
+#    • CUDA 12.6:
+#      pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cu126
+#
+#    • CUDA 12.1:
+#      pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cu121
+#
+#    • CPU版本:
+#      pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cpu
+#
+#    可用命令`nvcc --version`或`nvidia-smi`查看CUDA版本
