@@ -112,6 +112,23 @@ mcp run whisper_server.py
 
 MIT
 
+## 致谢
+
+本项目在开发过程中得到了以下优秀AI工具和模型的帮助：
+
+- [GitHub Copilot](https://github.com/features/copilot) - AI结对编程助手
+- [Trae](https://trae.ai/) - 智能AI编码助手
+- [Cline](https://cline.ai/) - AI驱动的终端
+- [DeepSeek](https://www.deepseek.com/) - 先进的AI模型
+- [Claude-3.7-Sonnet](https://www.anthropic.com/claude) - Anthropic强大的AI助手
+- [Gemini-2.0-Flash](https://ai.google/gemini/) - Google的多模态AI模型
+- [VS Code](https://code.visualstudio.com/) - 强大的代码编辑器
+- [Whisper](https://github.com/openai/whisper) - OpenAI的语音识别模型
+- [Faster Whisper](https://github.com/guillaumekln/faster-whisper) - 优化的Whisper实现
+
+特别感谢这些出色的工具和背后的团队。
+
+---
 
 # Whisper 语音识别 MCP 服务器（cline claude sonnet 3.7 完成所有任务后的说明）
 
